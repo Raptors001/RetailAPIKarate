@@ -38,19 +38,8 @@ Feature: Retail API - Address Service
     * def addressID = read('file:./target/address.json')
     * def id = addressID[0].id
     * path "/address/" + id
-    * request
-      """
-      {
-      "country": "United States",
-      "fullName": "Transformers ",
-      "phoneNumber": "2021015566",
-      "street": "Main st ",
-      "apartment": "H.no 15",
-      "city": "Falls Church",
-      "state": "VA",
-      "zipCode": "22044"
-      }
-      """
+    * def requestbody = read('request.json')
+    * request requestbody
     * method put
     * print response
 
