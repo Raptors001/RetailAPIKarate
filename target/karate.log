@@ -1,6 +1,6 @@
-21:18:31.838 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:18:32.753 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:18:33.134 [main] DEBUG com.intuit.karate - request:
+21:27:21.087 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:27:22.019 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:27:22.434 [main] DEBUG com.intuit.karate - request:
 1 > POST https://tek-retail-api.azurewebsites.net/auth/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 60
@@ -10,30 +10,30 @@
 1 > Accept-Encoding: gzip,deflate
 {"email":"shaiq.ahmad@tekschool.us","password":"Test@12345"}
 
-21:18:33.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 622
+21:27:22.857 [main] DEBUG com.intuit.karate - response time in milliseconds: 420
 1 < 200
 1 < Content-Length: 392
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:01 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:50 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"188-+yNbHsjOKw9k6L7RfzgiJHXfFB4"
+1 < ETag: W/"188-dyGia97jQmJa3xkoBByywfiMCKk"
 1 < X-Powered-By: Express
-{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAxfQ.Lepi2KKKr1YwZUKOTX6qGPzT200Zw4goQYv5kZdJONM"}
+{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMwfQ.ENwbT_qT7xl822LKNjxtj-4prv-1HVmEHXwZiiu2Z3k"}
 
-21:18:33.764 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAxfQ.Lepi2KKKr1YwZUKOTX6qGPzT200Zw4goQYv5kZdJONM 
-21:18:33.766 [main] INFO  com.intuit.karate - [print] {
+21:27:22.865 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMwfQ.ENwbT_qT7xl822LKNjxtj-4prv-1HVmEHXwZiiu2Z3k 
+21:27:22.869 [main] INFO  com.intuit.karate - [print] {
   "name": "shaiq",
   "email": "shaiq.ahmad@tekschool.us",
   "userId": 3798,
   "role": "customer",
   "roleId": 3664,
   "phoneNumber": null,
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAxfQ.Lepi2KKKr1YwZUKOTX6qGPzT200Zw4goQYv5kZdJONM"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMwfQ.ENwbT_qT7xl822LKNjxtj-4prv-1HVmEHXwZiiu2Z3k"
 }
  
-21:18:33.772 [main] DEBUG com.intuit.karate - request:
+21:27:22.877 [main] DEBUG com.intuit.karate - request:
 1 > POST https://tek-retail-api.azurewebsites.net/address
-1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAxfQ.Lepi2KKKr1YwZUKOTX6qGPzT200Zw4goQYv5kZdJONM
+1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMwfQ.ENwbT_qT7xl822LKNjxtj-4prv-1HVmEHXwZiiu2Z3k
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 171
 1 > Host: tek-retail-api.azurewebsites.net
@@ -42,18 +42,18 @@
 1 > Accept-Encoding: gzip,deflate
 {"country":"United States","fullName":"Shaiq","phoneNumber":"2021015522","street":"1226 Main Street ","apartment":"apt 115","city":"Tysons","state":"VA","zipCode":"22044"}
 
-21:18:33.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 90
+21:27:22.952 [main] DEBUG com.intuit.karate - response time in milliseconds: 75
 1 < 200
 1 < Content-Length: 273
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:01 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:50 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"111-cQ2e+S5IjPgMOi4ugwdTY8F7X9o"
+1 < ETag: W/"111-yle3CZbWs0i/OnprpXSAUW0nlWY"
 1 < X-Powered-By: Express
-{"id":4988,"country":"United States","fullName":"Shaiq","phoneNumber":"2021015522","street":"1226 Main Street ","apartment":"apt 115","city":"Tysons","state":"VA","zipCode":"22044","userId":3798,"updatedAt":"2023-03-17T01:20:01.697Z","createdAt":"2023-03-17T01:20:01.697Z"}
+{"id":4995,"country":"United States","fullName":"Shaiq","phoneNumber":"2021015522","street":"1226 Main Street ","apartment":"apt 115","city":"Tysons","state":"VA","zipCode":"22044","userId":3798,"updatedAt":"2023-03-17T01:28:50.795Z","createdAt":"2023-03-17T01:28:50.795Z"}
 
-21:18:33.863 [main] INFO  com.intuit.karate - [print] {
-  "id": 4988,
+21:27:22.953 [main] INFO  com.intuit.karate - [print] {
+  "id": 4995,
   "country": "United States",
   "fullName": "Shaiq",
   "phoneNumber": "2021015522",
@@ -63,12 +63,12 @@
   "state": "VA",
   "zipCode": "22044",
   "userId": 3798,
-  "updatedAt": "2023-03-17T01:20:01.697Z",
-  "createdAt": "2023-03-17T01:20:01.697Z"
+  "updatedAt": "2023-03-17T01:28:50.795Z",
+  "createdAt": "2023-03-17T01:28:50.795Z"
 }
  
-21:18:33.869 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:18:33.879 [main] DEBUG com.intuit.karate - request:
+21:27:22.967 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:27:22.983 [main] DEBUG com.intuit.karate - request:
 1 > POST https://tek-retail-api.azurewebsites.net/auth/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 60
@@ -78,49 +78,49 @@
 1 > Accept-Encoding: gzip,deflate
 {"email":"shaiq.ahmad@tekschool.us","password":"Test@12345"}
 
-21:18:34.193 [main] DEBUG com.intuit.karate - response time in milliseconds: 314
+21:27:23.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 189
 1 < 200
 1 < Content-Length: 392
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"188-cXPVKDXjezYf9MJ9SNi5AsZHANE"
+1 < ETag: W/"188-JNHa5CAfmvoARqwRRIqj2/reGAI"
 1 < X-Powered-By: Express
-{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"}
+{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"}
 
-21:18:34.194 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A 
-21:18:34.194 [main] INFO  com.intuit.karate - [print] {
+21:27:23.175 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw 
+21:27:23.177 [main] INFO  com.intuit.karate - [print] {
   "name": "shaiq",
   "email": "shaiq.ahmad@tekschool.us",
   "userId": 3798,
   "role": "customer",
   "roleId": 3664,
   "phoneNumber": null,
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"
 }
  
-21:18:34.196 [main] DEBUG com.intuit.karate - request:
+21:27:23.180 [main] DEBUG com.intuit.karate - request:
 1 > GET https://tek-retail-api.azurewebsites.net/address
-1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A
+1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw
 1 > Host: tek-retail-api.azurewebsites.net
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 > Accept-Encoding: gzip,deflate
 
 
-21:18:34.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 70
+21:27:23.243 [main] DEBUG com.intuit.karate - response time in milliseconds: 62
 1 < 200
 1 < Content-Length: 291
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"123-3YJCsXDxSPYfVygbM2cIEYXBz0k"
+1 < ETag: W/"123-v9YcH6bwWKscYqpvvo5mX/OJ8LE"
 1 < X-Powered-By: Express
-[{"id":4988,"country":"United States","fullName":"Shaiq","phoneNumber":"2021015522","street":"1226 Main Street ","apartment":"apt 115","city":"Tysons","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:20:01.000Z","updatedAt":"2023-03-17T01:20:01.000Z"}]
+[{"id":4995,"country":"United States","fullName":"Shaiq","phoneNumber":"2021015522","street":"1226 Main Street ","apartment":"apt 115","city":"Tysons","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:28:50.000Z","updatedAt":"2023-03-17T01:28:50.000Z"}]
 
-21:18:34.269 [main] INFO  com.intuit.karate - [print] [
+21:27:23.247 [main] INFO  com.intuit.karate - [print] [
   {
-    "id": 4988,
+    "id": 4995,
     "country": "United States",
     "fullName": "Shaiq",
     "phoneNumber": "2021015522",
@@ -131,15 +131,15 @@
     "zipCode": 22044,
     "userId": 3798,
     "isDeleted": false,
-    "createdAt": "2023-03-17T01:20:01.000Z",
-    "updatedAt": "2023-03-17T01:20:01.000Z"
+    "createdAt": "2023-03-17T01:28:50.000Z",
+    "updatedAt": "2023-03-17T01:28:50.000Z"
   }
 ]
  
-21:18:34.272 [main] INFO  com.intuit.karate - [print] 4988 
-21:18:34.304 [main] DEBUG com.intuit.karate - write to file: target\address.json
-21:18:34.307 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:18:34.313 [main] DEBUG com.intuit.karate - request:
+21:27:23.249 [main] INFO  com.intuit.karate - [print] 4995 
+21:27:23.283 [main] DEBUG com.intuit.karate - write to file: target\address.json
+21:27:23.292 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:27:23.309 [main] DEBUG com.intuit.karate - request:
 1 > POST https://tek-retail-api.azurewebsites.net/auth/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 60
@@ -149,30 +149,30 @@
 1 > Accept-Encoding: gzip,deflate
 {"email":"shaiq.ahmad@tekschool.us","password":"Test@12345"}
 
-21:18:34.590 [main] DEBUG com.intuit.karate - response time in milliseconds: 275
+21:27:23.557 [main] DEBUG com.intuit.karate - response time in milliseconds: 247
 1 < 200
 1 < Content-Length: 392
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"188-cXPVKDXjezYf9MJ9SNi5AsZHANE"
+1 < ETag: W/"188-JNHa5CAfmvoARqwRRIqj2/reGAI"
 1 < X-Powered-By: Express
-{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"}
+{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"}
 
-21:18:34.591 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A 
-21:18:34.592 [main] INFO  com.intuit.karate - [print] {
+21:27:23.559 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw 
+21:27:23.560 [main] INFO  com.intuit.karate - [print] {
   "name": "shaiq",
   "email": "shaiq.ahmad@tekschool.us",
   "userId": 3798,
   "role": "customer",
   "roleId": 3664,
   "phoneNumber": null,
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"
 }
  
-21:18:34.607 [main] DEBUG com.intuit.karate - request:
-1 > PUT https://tek-retail-api.azurewebsites.net/address/4988
-1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A
+21:27:23.582 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://tek-retail-api.azurewebsites.net/address/4995
+1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 176
 1 > Host: tek-retail-api.azurewebsites.net
@@ -181,18 +181,18 @@
 1 > Accept-Encoding: gzip,deflate
 {"country":"United States","fullName":"Transformers ","phoneNumber":"2021015566","street":"Main st ","apartment":"H.no 15","city":"Falls Church","state":"VA","zipCode":"22044"}
 
-21:18:34.677 [main] DEBUG com.intuit.karate - response time in milliseconds: 70
+21:27:23.661 [main] DEBUG com.intuit.karate - response time in milliseconds: 79
 1 < 200
 1 < Content-Length: 294
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"126-ltDSm9Z71VXEY978oqDQ4KJVf4Q"
+1 < ETag: W/"126-Z+xBO5giB3pYEEokGYdub5RYM28"
 1 < X-Powered-By: Express
-{"id":4988,"country":"United States","fullName":"Transformers ","phoneNumber":"2021015566","street":"Main st ","apartment":"H.no 15","city":"Falls Church","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:20:01.000Z","updatedAt":"2023-03-17T01:20:02.000Z"}
+{"id":4995,"country":"United States","fullName":"Transformers ","phoneNumber":"2021015566","street":"Main st ","apartment":"H.no 15","city":"Falls Church","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:28:50.000Z","updatedAt":"2023-03-17T01:28:51.000Z"}
 
-21:18:34.677 [main] INFO  com.intuit.karate - [print] {
-  "id": 4988,
+21:27:23.664 [main] INFO  com.intuit.karate - [print] {
+  "id": 4995,
   "country": "United States",
   "fullName": "Transformers ",
   "phoneNumber": "2021015566",
@@ -203,12 +203,12 @@
   "zipCode": 22044,
   "userId": 3798,
   "isDeleted": false,
-  "createdAt": "2023-03-17T01:20:01.000Z",
-  "updatedAt": "2023-03-17T01:20:02.000Z"
+  "createdAt": "2023-03-17T01:28:50.000Z",
+  "updatedAt": "2023-03-17T01:28:51.000Z"
 }
  
-21:18:34.681 [main] INFO  com.intuit.karate - karate.env system property was: null 
-21:18:34.690 [main] DEBUG com.intuit.karate - request:
+21:27:23.675 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:27:23.686 [main] DEBUG com.intuit.karate - request:
 1 > POST https://tek-retail-api.azurewebsites.net/auth/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 60
@@ -218,48 +218,48 @@
 1 > Accept-Encoding: gzip,deflate
 {"email":"shaiq.ahmad@tekschool.us","password":"Test@12345"}
 
-21:18:34.886 [main] DEBUG com.intuit.karate - response time in milliseconds: 196
+21:27:23.884 [main] DEBUG com.intuit.karate - response time in milliseconds: 197
 1 < 200
 1 < Content-Length: 392
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"188-cXPVKDXjezYf9MJ9SNi5AsZHANE"
+1 < ETag: W/"188-JNHa5CAfmvoARqwRRIqj2/reGAI"
 1 < X-Powered-By: Express
-{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"}
+{"name":"shaiq","email":"shaiq.ahmad@tekschool.us","userId":3798,"role":"customer","roleId":3664,"phoneNumber":null,"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"}
 
-21:18:34.888 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A 
-21:18:34.888 [main] INFO  com.intuit.karate - [print] {
+21:27:23.885 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw 
+21:27:23.885 [main] INFO  com.intuit.karate - [print] {
   "name": "shaiq",
   "email": "shaiq.ahmad@tekschool.us",
   "userId": 3798,
   "role": "customer",
   "roleId": 3664,
   "phoneNumber": null,
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw"
 }
  
-21:18:34.891 [main] DEBUG com.intuit.karate - request:
-1 > DELETE https://tek-retail-api.azurewebsites.net/address/4988
-1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2MDAyfQ.mCrNjZn5KslVOe8FAPS3M8Ameoo50X0xC-JdF4K-w6A
+21:27:23.889 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://tek-retail-api.azurewebsites.net/address/4995
+1 > x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2hhaXEiLCJlbWFpbCI6InNoYWlxLmFobWFkQHRla3NjaG9vbC51cyIsInVzZXJJZCI6Mzc5OCwicm9sZSI6ImN1c3RvbWVyIiwicm9sZUlkIjozNjY0LCJwaG9uZU51bWJlciI6bnVsbCwiaWF0IjoxNjc5MDE2NTMxfQ.ZCZNy0DMCaglSwLkEqrDQ6aCteSa2BrJMNx3P-xnuVw
 1 > Host: tek-retail-api.azurewebsites.net
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 > Accept-Encoding: gzip,deflate
 
 
-21:18:35.071 [main] DEBUG com.intuit.karate - response time in milliseconds: 180
+21:27:23.976 [main] DEBUG com.intuit.karate - response time in milliseconds: 87
 1 < 200
 1 < Content-Length: 294
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Fri, 17 Mar 2023 01:20:02 GMT
+1 < Date: Fri, 17 Mar 2023 01:28:51 GMT
 1 < Access-Control-Allow-Origin: *
-1 < ETag: W/"126-ltDSm9Z71VXEY978oqDQ4KJVf4Q"
+1 < ETag: W/"126-Z+xBO5giB3pYEEokGYdub5RYM28"
 1 < X-Powered-By: Express
-{"id":4988,"country":"United States","fullName":"Transformers ","phoneNumber":"2021015566","street":"Main st ","apartment":"H.no 15","city":"Falls Church","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:20:01.000Z","updatedAt":"2023-03-17T01:20:02.000Z"}
+{"id":4995,"country":"United States","fullName":"Transformers ","phoneNumber":"2021015566","street":"Main st ","apartment":"H.no 15","city":"Falls Church","state":"VA","zipCode":22044,"userId":3798,"isDeleted":false,"createdAt":"2023-03-17T01:28:50.000Z","updatedAt":"2023-03-17T01:28:51.000Z"}
 
-21:18:35.072 [main] INFO  com.intuit.karate - [print] {
-  "id": 4988,
+21:27:23.978 [main] INFO  com.intuit.karate - [print] {
+  "id": 4995,
   "country": "United States",
   "fullName": "Transformers ",
   "phoneNumber": "2021015566",
@@ -270,8 +270,7 @@
   "zipCode": 22044,
   "userId": 3798,
   "isDeleted": false,
-  "createdAt": "2023-03-17T01:20:01.000Z",
-  "updatedAt": "2023-03-17T01:20:02.000Z"
+  "createdAt": "2023-03-17T01:28:50.000Z",
+  "updatedAt": "2023-03-17T01:28:51.000Z"
 }
  
-21:18:35.785 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/RetailAddress.feature
