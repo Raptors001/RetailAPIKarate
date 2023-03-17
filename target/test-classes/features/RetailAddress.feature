@@ -1,3 +1,4 @@
+@completeTest
 Feature: Retail API - Address Service
 
   Background: 
